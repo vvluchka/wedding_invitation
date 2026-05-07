@@ -15,9 +15,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Запрошуємо вас на наше весілля!",
-  description:
-    "Роман і Христина запрошують вас розділити з ними радість їхнього весілля 6 червня 2026 року.",
+  title: "Роман і Христина | 6 червня 2026",
+  description: "Запрошуємо вас на наше весілля!",
 
   metadataBase: new URL("https://wedding-invitation-navy-one.vercel.app"),
 
@@ -31,11 +30,19 @@ export const metadata: Metadata = {
         width: 1200,
         height: 630,
         alt: "Весілля Роман і Христина - 6 червня 2026",
+        type: "image/jpeg",
       },
     ],
     type: "website",
     locale: "uk_UA",
     siteName: "Весілля Роман і Христина",
+  },
+
+  other: {
+    "og:image:alt": "Роман і Христина",
+    "og:image:type": "image/jpeg",
+    "og:image:width": "1200",
+    "og:image:height": "630",
   },
 };
 
