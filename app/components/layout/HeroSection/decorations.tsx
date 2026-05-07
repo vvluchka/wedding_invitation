@@ -17,7 +17,7 @@ export function Decorations() {
 
       {/* Мобільна версія - горизонтальний ряд внизу */}
       <div className="lg:hidden  flex gap-4 flex-wrap justify-center p-5">
-        {[1, 2, 3, 8, 5].map((num) => (
+        {[1, 2, 3, 4, 5].map((num) => (
           <Image
             key={num}
             src={`/photos/image${num}.jpeg`}
