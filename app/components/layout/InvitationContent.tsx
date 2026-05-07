@@ -38,7 +38,7 @@ export function InvitationContent() {
       </div>
 
       {/* Кольорова гама */}
-      <div className="text-center">
+      <div className="text-center pb-12">
         <p className="uppercase tracking-[2px] text-xs text-[#8c7a5e] mb-4">
           Кольорова гама нашого весілля
         </p>
@@ -53,16 +53,6 @@ export function InvitationContent() {
             ),
           )}
         </div>
-      </div>
-
-      {/* Фінальний теплий текст */}
-      <div className="pb-12 text-center text-sm leading-relaxed text-[#6b5a45] max-w-xs mx-auto">
-        Це запрошення — особливе.
-        <br />
-        Посадіть його та виростіть квітку, адже все справжнє і красиве,
-        <br />
-        як і наше «ми», народжується з любові.
-        <div className="mt-8 text-3xl">🌱</div>
       </div>
     </div>
   );
