@@ -58,7 +58,7 @@ export default function WeddingInvitation() {
 
               <div className="absolute top-6 left-1/2 -translate-x-1/2 text-center">
                 <p className="font-script text-4xl text-[#3f2e1e]">
-                  Роман & Христина
+                  Роман  Христина
                 </p>
                 <p className="text-sm tracking-widest text-[#6b5a45] mt-1">
                   06.06.2026
@@ -66,10 +66,10 @@ export default function WeddingInvitation() {
               </div>
 
               <div className="absolute top-32 sm:bottom-28 left-1/2 -translate-x-1/2 z-20">
-                <div className="w-28 h-28 bg-gradient-to-br from-[#9c2a2a] via-[#b33f3f] to-[#8c1f1f] rounded-full shadow-xl flex items-center justify-center border-8 border-[#f4e9d8] group-hover:rotate-6 transition-transform">
+                <div className="w-24 h-24 bg-gradient-to-br from-[#9c2a2a] via-[#b33f3f] to-[#8c1f1f] rounded-full shadow-xl flex items-center justify-center border-8 border-[#8c1f1f] group-hover:rotate-6 transition-transform shadow-inner">
                   <div className="text-center text-white">
                     <div className="text-2xl">💌</div>
-                    <div className="text-[10px] tracking-[2px] mt-1 font-medium">
+                    <div className="text-[10px] tracking-[2px]  font-medium">
                       ВІДКРИТИ
                     </div>
                   </div>
@@ -237,17 +237,8 @@ export default function WeddingInvitation() {
 
                 {/* === НОВИЙ БЛОК: ВБУДОВАНА ФОРМА === */}
                 <div className="pt-12 border-t border-[#e8d9c7]">
-                  <h2 className="text-2xl font-medium text-[#3f2e1e] mb-6">
-                    Підтвердіть, будь ласка, свою присутність
-                  </h2>
-
-                  <p className="text-[#6b5a45] mb-8 max-w-md mx-auto">
-                    Будемо дуже раді бачити вас! Заповніть форму нижче або
-                    напишіть нам особисто.
-                  </p>
-
                   {/* === КАСТОМНА ФОРМА RSVP === */}
-                  <div className="pt-12 border-t border-[#e8d9c7]">
+                  <div>
                     <h2 className="text-2xl font-medium text-[#3f2e1e] mb-6 text-center">
                       Підтвердіть, будь ласка, свою присутність
                     </h2>

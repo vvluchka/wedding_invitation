@@ -55,7 +55,7 @@ export function RSVPForm({ webAppUrl }: { webAppUrl: string }) {
   return (
     <form 
       onSubmit={handleSubmit} 
-      className="max-w-lg mx-auto space-y-6 bg-[#f9f5eb] p-8 rounded-3xl shadow-inner"
+      className="max-w-lg mx-auto space-y-6 sm:bg-[#f9f5eb]  sm:p-8 rounded-3xl sm:shadow-inner"
     >
       {/* Ім'я / Сім'я */}
       <div>
