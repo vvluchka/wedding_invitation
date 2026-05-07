@@ -29,7 +29,6 @@ export const metadata: Metadata = {
         url: "/preview.jpeg",
         width: 1200,
         height: 630,
-        alt: "Весілля Роман і Христина - 6 червня 2026",
         type: "image/jpeg",
       },
     ],
