@@ -6,7 +6,7 @@ export function Decorations() {
       {/* Десктопна версія - розкидані фото */}
       <div className="absolute inset-0 pointer-events-none ">
         <Image
-          src="/photos/image2.JPG"
+          src="/photos/image1.jpeg"
           alt="Роман і Христина"
           width={2000}
           height={3000}
