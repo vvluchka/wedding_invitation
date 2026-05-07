@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import { Envelope } from "./components/layout/Envelope";
 import { HeroSection } from "./components/layout/HeroSection";
 import { InvitationContent } from "./components/layout/InvitationContent";
-import { RSVPSection } from "./components/rsvp/RSVPSection";
+import { RSVPSection } from "./components/RSVP/RSVPSection";
 
 const WEB_APP_URL =
   "https://script.google.com/macros/s/AKfycbzfoRYECUfAZA8dV7iLA4PAeTBB6eD5wQcYO-XLhBr7n-Q6jVxSmTZQowR9PcLCFZY/exec";
