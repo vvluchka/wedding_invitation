@@ -76,7 +76,7 @@ export function RSVPForm({ webAppUrl }: Props) {
           name="name"
           placeholder="Наприклад: Тарас Шевченко або Сім'я Шевченко"
           required
-          className="placeholder-[#ad9a83] text-[#6b5a45] w-full px-5 py-3.5 rounded-2xl border border-[#d4b88a] focus:outline-none focus:border-[#3f2e1e] text-lg"
+          className="placeholder-[#ad9a83] text-[#6b5a45] w-full px-5 py-3.5 rounded-2xl border border-[#d4b88a] focus:outline-none focus:border-[#3f2e1e] text-xs lg:text-lg"
         />
       </div>
 
