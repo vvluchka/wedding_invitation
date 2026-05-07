@@ -6,7 +6,7 @@ export function Decorations() {
       {/* Десктопна версія - розкидані фото */}
       <div className="absolute inset-0 pointer-events-none ">
         <Image
-          src="/photos/image1.jpeg"
+          src="/img/image1.jpeg"
           alt="Роман і Христина"
           width={2000}
           height={3000}
@@ -20,7 +20,7 @@ export function Decorations() {
         {[1, 2, 3, 4, 5].map((num) => (
           <Image
             key={num}
-            src={`/photos/image${num}.jpeg`}
+            src={`/img/image${num}.jpeg`}
             alt="Роман і Христина"
             width={88}
             height={88}
