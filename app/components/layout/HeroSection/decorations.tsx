@@ -16,7 +16,7 @@ export function Decorations() {
       </div>
 
       {/* Мобільна версія - горизонтальний ряд внизу */}
-      <div className="lg:hidden  flex gap-4 flex-wrap justify-center p-5">
+      <div className="lg:hidden  flex gap-4 flex-wrap justify-center p-5 ">
         {[1, 2, 3, 4, 5].map((num) => (
           <Image
             key={num}
@@ -24,7 +24,7 @@ export function Decorations() {
             alt="Роман і Христина"
             width={88}
             height={88}
-            className="rounded-2xl shadow-md object-cover"
+            className="rounded-2xl shadow-md object-cover w-24 h-24"
           />
         ))}
       </div>
